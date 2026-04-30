@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Var Central | Pasión por el Fútbol</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f4f4; }
+        header { background: #1a1a1a; color: #ffd700; padding: 1rem; text-align: center; border-bottom: 4px solid #ffd700; }
+        nav { background: #333; color: white; display: flex; justify-content: center; gap: 20px; padding: 10px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+        .card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .live-score { background: #e74c3c; color: white; padding: 5px 10px; border-radius: 5px; display: inline-block; }
+        footer { text-align: center; padding: 20px; background: #1a1a1a; color: white; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>EL VAR CENTRAL ⚽</h1>
+    <p>Donde el análisis no se equivoca</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Fichajes</a>
+    <a href="#">Ligas</a>
+    <a href="#">Estadísticas</a>
+</nav>
+
+<div class="container">
+    <div class="grid">
+        <main>
+            <article class="card">
+                <span class="live-score">EN VIVO</span>
+                <h2>¿Final de ciclo? El dilema del Real Madrid</h2>
+                <p>Analizamos los movimientos tácticos tras el último derbi. ¿Es hora de cambiar el sistema?</p>
+                <button>Leer más...</button>
+            </article>
+
+            <article class="card">
+                <h2>Mercado: La joya brasileña que busca Europa</h2>
+                <p>Con solo 17 años, este mediocampista ya tiene a tres grandes de la Premier tras sus pasos.</p>
+            </article>
+        </main>
+
+        <aside>
+            <div class="card">
+                <h3>Resultados del Día</h3>
+                <ul>
+                    <li>Barça 2 - 0 Atleti</li>
+                    <li>City 3 - 3 Liverpool</li>
+                    <li>Bayern 4 - 1 BVB</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 El Var Central. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
